@@ -1,0 +1,25 @@
+import StatCard from "./StatCard";
+
+function Section() {
+    return (
+<section className="border-t border-[#C9996B] py-3">
+    <StatCard   title="Create"
+                description="Creates an empty Git repository in the current folder."
+                command="git init"
+    />
+
+    <StatCard   title="Rename"
+                description="Renames the current branch to main."
+                command="git branch -M main"
+    />
+
+    <StatCard   title="Upload"
+                description="Sends the main branch to the remote named origin."
+                command="git push -u origin main"
+    />
+          
+          </section>
+    );
+}
+
+export default Section;
