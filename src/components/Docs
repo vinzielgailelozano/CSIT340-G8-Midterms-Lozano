@@ -5,6 +5,8 @@ import StatCard from "./StatCard";
 
 function Docs({read, bookmarks, onRead, onBookmark, onReset}) {
     return (
+      <>
+      
         <div className="flex items-end justify-between px-20 pt-10">
         
           <div className="mt-6 flex gap-4">
